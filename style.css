@@ -1,0 +1,18 @@
+body {
+    background-color: khaki;
+}
+
+.active {
+    visibility: hidden;
+}
+
+
+
+.btn:hover {
+    border: 1px solid white !important;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
