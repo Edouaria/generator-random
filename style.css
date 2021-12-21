@@ -1,12 +1,15 @@
 body {
-    background-color: khaki;
+    background-color: lightseagreen !important;
 }
 
 .active {
     visibility: hidden;
 }
 
-
+.whoisit {
+    background-color: blueviolet !important;
+    color: white !important;
+}
 
 .btn:hover {
     border: 1px solid white !important;
@@ -15,4 +18,12 @@ body {
 .btn:focus,.btn:active {
    outline: none !important;
    box-shadow: none !important;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }

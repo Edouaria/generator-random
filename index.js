@@ -1,11 +1,20 @@
 var stagiaires = ["Esther", "Lamia", "Zineb", "Aurélia", "Sofiane", "Kevin", "Julien", "Faouzi", "Michelle", "Aicha", "Maxime", "Clois"]
 var already_passed = []
 var res = document.querySelector("p")
+res.style.padding = "40px"
 var stagiaire = ""
-var mon_bouton = document.querySelector('button')
+var my_buttons = document.querySelectorAll(".whoisit")
+var restart_button = my_buttons[0]
+var start_button = my_buttons[1]
 var container = document.querySelector(".row")
+list_icons = []
 
-mon_bouton.addEventListener("click", function() {
+restart_button.addEventListener("click", function() {
+    already_passed = []
+    res.innerHTML = "..."
+})
+
+start_button.addEventListener("click", function() {
     show_next_stagiaire()
     new_tab = []
     already_passed.map(val => {
@@ -52,7 +61,7 @@ function toggle_stagiaire(button_stagiaire) {
             button_stagiaire.value = "on"
             button_stagiaire.className = "btn rounded-0 col-2 text-center"
             button_stagiaire.style.backgroundColor = "blueviolet"
-            button_stagiaire.style.color = "black"
+            button_stagiaire.style.color = "white"
         }
         console.log("stagiaires ", stagiaires);
     })
@@ -65,7 +74,7 @@ function generate_buttons_stagiaires() {
         button_stagiaire.value = "on"
         button_stagiaire.className = "btn rounded-0 col-2 text-center"
         button_stagiaire.style.backgroundColor = "blueviolet"
-        button_stagiaire.style.color = "black"
+        button_stagiaire.style.color = "white"
         toggle_stagiaire(button_stagiaire)
         container.appendChild(button_stagiaire)
     }
