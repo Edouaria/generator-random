@@ -7,31 +7,59 @@ var my_buttons = document.querySelectorAll(".whoisit")
 var restart_button = my_buttons[0]
 var start_button = my_buttons[1]
 var container = document.querySelector(".row")
-list_icons = []
+var counter = 0;
+var is_wheeling = false
+
+function launch_the_wheel() {
+    var i = setInterval(function () {
+        res.innerHTML = stagiaires[counter%stagiaires.length]
+        if (counter === 10) {
+            let new_tab = []
+            already_passed.map(val => {
+                new_tab.push(" " + val)
+            })
+            res.innerHTML = new_tab
+            clearInterval(i);
+            is_wheeling = false
+            restart_button.style.backgroundColor = "blueviolet"
+            restart_button.style.color = "white"
+            start_button.style.backgroundColor = "blueviolet"
+            start_button.style.color = "white"
+        }
+        counter++;
+    }, 100);
+}
 
 restart_button.addEventListener("click", function() {
-    already_passed = []
-    res.innerHTML = "..."
+    if (is_wheeling === false) {
+        already_passed = []
+        res.innerHTML = "..."
+        counter = 0
+    }
 })
 
 start_button.addEventListener("click", function() {
-    show_next_stagiaire()
-    new_tab = []
-    already_passed.map(val => {
-        new_tab.push(" " + val)
-    })
-    res.innerHTML = new_tab
+    if (is_wheeling === false) {
+        is_wheeling = true
+        restart_button.style.backgroundColor = "lightgrey"
+        restart_button.style.color = "dimgrey"
+        start_button.style.backgroundColor = "lightgrey"
+        start_button.style.color = "dimgrey"
+        counter = 0
+        get_next_stagiaire()
+        launch_the_wheel()
+    }
 })
 
 function random_stagiaire() {
     stagiaire = stagiaires[parseInt(Math.random() * stagiaires.length)]
 }
 
-function show_next_stagiaire() {
+function get_next_stagiaire() {
     random_stagiaire()
     if (already_passed.length < stagiaires.length) {
         if (is_stagiaire_already_passed()) {
-            show_next_stagiaire()
+            get_next_stagiaire()
         } else {
             already_passed.push(stagiaire)
         }
