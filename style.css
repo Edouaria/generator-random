@@ -45,5 +45,6 @@ body {
 }
 
 .result_container>div {
-    transform: rotate(10deg);
+    transform: rotate(15deg);
+    font-size: 20px;
 }

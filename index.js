@@ -16,7 +16,6 @@ function launch_the_wheel() {
     let selected_stagiaire = document.createElement("div")
     nodes_child_to_be_removed.push(selected_stagiaire)
     selected_stagiaire.className = "col-2"
-    selected_stagiaire.style.fontSize = 'larger'
     let i = setInterval(function () {
         selected_stagiaire.textContent = stagiaires[counter%stagiaires.length]
         res.appendChild(selected_stagiaire)
