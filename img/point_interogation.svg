@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.955467mm"
+   height="77.955467mm"
+   viewBox="0 0 77.955467 77.955467"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="point_interogation.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.82898548"
+     inkscape:cx="24.729022"
+     inkscape:cy="150.78672"
+     inkscape:window-width="1600"
+     inkscape:window-height="835"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-midpoints="true">
+    <sodipodi:guide
+       position="38.977726,38.977744"
+       orientation="1,0"
+       id="guide1326" />
+    <sodipodi:guide
+       position="38.977725,52.341529"
+       orientation="0,-1"
+       id="guide4033" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.765702,-54.53344)"
+     style="opacity:0.30925879">
+    <path
+       id="rect846"
+       style="fill:#000000;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+       d="M 0 0 L 0 294.63477 L 294.63477 294.63477 L 294.63477 0 L 0 0 z M 13.03125 13.03125 L 281.60352 13.03125 L 281.60352 281.60352 L 13.03125 281.60352 L 13.03125 13.03125 z M 147.31836 39.378906 A 57.46799 57.46799 0 0 0 89.851562 96.808594 L 101.58203 96.808594 A 45.737756 45.737756 0 0 1 147.31836 51.107422 A 45.737756 45.737756 0 0 1 193.05469 96.845703 A 45.737756 45.737756 0 0 1 166.9082 138.16797 L 166.9082 138.30469 C 160.33593 142.44118 154.65981 147.87105 150.23828 154.23828 A 57.46799 57.46799 0 0 0 150.35156 154.22461 C 143.84983 163.52676 140.03863 174.82541 140.00781 186.9707 L 140.00781 186.97266 L 151.73828 186.97266 L 151.73828 186.9707 C 151.77494 170.29664 160.88293 154.96376 175.50781 146.95508 L 175.43164 146.82422 A 57.46799 57.46799 0 0 0 204.78516 96.845703 A 57.46799 57.46799 0 0 0 147.31836 39.378906 z M 147.31836 219.50977 A 7.1070135 7.1070135 0 0 0 140.21094 226.61719 A 7.1070135 7.1070135 0 0 0 147.31836 233.72266 A 7.1070135 7.1070135 0 0 0 154.42383 226.61719 A 7.1070135 7.1070135 0 0 0 147.31836 219.50977 z "
+       transform="matrix(0.26458333,0,0,0.26458333,2.765702,54.53344)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Calque 2"
+     style="display:inline" />
+</svg>

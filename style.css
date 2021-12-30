@@ -13,6 +13,12 @@ body {
     color: white;
 }
 
+.whoisit {
+    border-radius: 1ch;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .btn:focus,.btn:active {
    outline: none;
    box-shadow: none;
@@ -23,4 +29,21 @@ body {
   min-height: 100vh; /* These two lines are counted as one :-)       */
   display: flex;
   align-items: center;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(font/NexaRustSans-Black.otf);
+}
+
+.result_container {
+    border-radius: 1ch;
+    margin: 2ch;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, .2);
+    font-family: myFirstFont
+}
+
+.result_container>div {
+    transform: rotate(10deg);
 }
