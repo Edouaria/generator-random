@@ -1,5 +1,5 @@
 body {
-    background-color: lightseagreen;
+    background-color: darkslategray;
 }
 
 .btn {
@@ -37,14 +37,12 @@ body {
 }
 
 .result_container {
-    border-radius: 1ch;
     margin: 2ch;
     padding: 0px;
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .5);
     font-family: myFirstFont
 }
 
 .result_container>div {
-    transform: rotate(15deg);
-    font-size: 20px;
+    font-size: 17px;
 }
